@@ -18,11 +18,8 @@ private:
     // Define constant string that stores the relative file path to "words.txt".
     const string DICTIONARY_PATH = "./words.txt";
 
-    // Define constant integer for histogram width
+    // Define constant integer for table width
     const int TABLE_WIDTH = 70;
-
-    // Define constant inetger for histogram width
-    const int TABLE_HEIGHT = 10;
 
     // Helper function to convert signed char to unsigned
     uint16_t sanitizeChar(char c) {
